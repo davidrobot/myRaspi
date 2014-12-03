@@ -1,0 +1,17 @@
+usage:
+
+pi@raspberrypi ~ $ git clone https://github.com/davidrobot/myRaspi.git
+Cloning into 'myRaspi'...
+remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 5 (delta 0), reused 5 (delta 0)
+Unpacking objects: 100% (5/5), done.
+pi@raspberrypi ~ $ cd myRaspi/bin/
+pi@raspberrypi ~/myRaspi/bin $ chmod +x fsck.fat
+pi@raspberrypi ~/myRaspi/bin $ sudo cp fsck.fat /usr/bin
+pi@raspberrypi ~/myRaspi/bin $ sudo fsck.fat -a /dev/mmcblk0p1
+fsck.fat 3.0.26 (2014-03-07)
+0x25: Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+ Automatically removing dirty bit.
+Performing changes.
+/dev/mmcblk0p1: 13 files, 1231/7161 clusters
