@@ -1,0 +1,7 @@
+How to use the jar file "JOpenShowVarCMD.jar" :
+================================================
+
+1. instal JAVA Runtime JRE7 or JRE8
+2. run java -jar JOpenShowVarCMD.jar IP_address Var [SetVarValue]
+3. read value by typing like this :  java -jar JOpenShowVarCMD.jar 192.168.40.128 $OV_PRO
+4. write value by typing like this :  java -jar JOpenShowVarCMD.jar 192.168.40.128 $OV_PRO 80
